@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Roboto:wght@400;700&display=swap");
+
+body {
+  background-color: white;
+}
+.cardB {
+  background: #3985b6;
+}
+.card {
+  border: none;
+}
+.nav {
+  align-items: flex-start;
+  height: auto;
+  background-color: #3985b6;
+  border-radius: 150px;
+}
+
+.inputbody {
+  border-radius: 15px;
+}
+
+input#profile {
+  text-indent: 20px;
+  height: 100px;
+}
+
+.nav-link {
+  color: black;
+}
+
+h1 {
+  align-items: center;
+}
+
+a {
+  color: purple;
+  text-decoration: none;
+}
+
+.sections {
+  background-color: white;
+  border: 2px solid #3985b6;
+}
+
+/*For the image place holder*/
+input#profile {
+  background-image: url("Pictures/avatar.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: 20px;
+  /* Extra Styling */
+  transition: 0.3s;
+}
+input#profile:focus {
+  background-image: none;
+  text-indent: 0px;
+}
+::file-selector-button {
+  display: none;
+}
+input[type="file"] {
+  color: rgba(0, 0, 0, 0);
+}
+::-webkit-file-upload-button {
+  display: none;
+}
+
+/* Styling for edit form */
+
+#back {
+  height: 50px;
+  width: 50px;
+}
+
+.card {
+  border: none;
+}
+#Days {
+  width: 1000px;
+  background-color: #3985b6;
+}
+
+.inputbody {
+  border-radius: 15px;
+}
+
+input#profile {
+  background-repeat: no-repeat;
+  text-indent: 20px;
+  height: 150px;
+}
+
+input#profile:active {
+  background-image: none;
+}
+
+#icons {
+  height: 50px;
+  width: 40px;
+  margin: 5px;
+}
+
+h1 {
+  align-items: center;
+}
+
+#FirstS {
+  width: 150px;
+  height: 200px;
+}
+
+#SecS {
+  width: 200px;
+  height: 150px;
+}
+
+#ThirdS {
+  width: 200px;
+  height: 200px;
+}
+
+.sectionZ {
+  padding-left: 200px;
+}
+
+.borderi {
+  margin-left: 0px;
+  margin-right: 0px;
+}
